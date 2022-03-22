@@ -74,5 +74,5 @@ def main(n):
 if __name__ == '__main__':
     num = int(input('Enter a natural number: '))
     power_sum = main(num)
-    print('Sum of digits of 2^{}:'.format(num))
+    print('Sum of digits of n!:'.format(num))
     print('  {}'.format(power_sum))
