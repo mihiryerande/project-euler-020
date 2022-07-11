@@ -14,7 +14,7 @@
 from math import ceil, floor, log, log10
 
 
-def main(n):
+def main(n: int) -> int:
     """
     Returns the sum of the digits of the number n! (n factorial)
 
@@ -22,10 +22,10 @@ def main(n):
         n (int): Natural number
 
     Returns:
-        Sum of digits of n!
+        (int): Sum of digits of n!
 
     Raises:
-        AssertError: if incorrect params are given
+        AssertError: if incorrect args are given
     """
     assert type(n) == int and n > 0
 
